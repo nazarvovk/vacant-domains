@@ -1,0 +1,21 @@
+{
+  "name": "vacant-domains",
+  "version": "1.0.0",
+  "description": "Scans for vacant domains using brute force through instantdomainsearch",
+  "main": "index.js",
+  "repository": "https://github.com/nazarvovk/vacant-domains",
+  "author": "Nazar Vovk",
+  "license": "MIT",
+  "scripts": {
+    "start": "node headless.js",
+    "start:puppeteer": "node puppeteer.js"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.7"
+  }
+}
